@@ -3,7 +3,7 @@
   "name": "MFBlockchain DNS",
   "short_name": "MFB-DNS",
   "version": "1.0.12",
-  "description": "Resolves domains from blockchain name systems: .bit (Namecoin), .lib .bazar .coin .emc (Emercoin), .freeland .mfcoin (Freeland) .bbs and others (OpenNIC).",
+  "description": "Resolves domains from blockchain name systems: Namecoin, Emercoin, Freeland, OpenNIC",
   "icons": {
     "16": "icon-16.png",
     "24": "icon-24.png",
