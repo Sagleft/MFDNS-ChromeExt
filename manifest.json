@@ -53,7 +53,9 @@
     "*://*.te/*",     "ftp://*.te/*",
     "*://*.ti/*",     "ftp://*.ti/*",
     "*://*.uu/*",     "ftp://*.uu/*",
-    "*://*.fur/*",    "ftp://*.fur/*"
+    "*://*.fur/*",    "ftp://*.fur/*",
+    "*://*.mfcoin/*", "ftp://*.mfcoin/*",
+    "*://*.freeland/*", "ftp://*.freeland/*"
   ],
   "homepage_url": "https://blockchain-dns.info"
 }

@@ -63,7 +63,12 @@ var apiBaseURLs = [
   'https://b-dns.se/r/',
 ];
 
+var freeland_apiBaseURLs = [
+  'https://resolver.mfcoin.su/r/'
+];
+
 var apiBaseUrlIndex = Math.floor(Math.random() * apiBaseURLs.length);
+var freeland_apiBaseUrlIndex = Math.floor(Math.random() * apiBaseURLs.length);
 
 var apiTimeout = 5000;
 
@@ -127,7 +132,13 @@ function isSupportedTLD(tld) {
 // done = function (ips), ips = [] if nx, [ip, ...] if xx, null on error.
 function resolveViaAPI(domain, async, done) {
   var xhr = new XMLHttpRequest;
-  var apiBase = apiBaseURLs[apiBaseUrlIndex];
+  var apiBase;
+  if(domain.indexOf('mfcoin') != -1 || domain.indexOf('freeland'))
+  {
+    apiBase = freeland_apiBaseURLs[freeland_apiBaseUrlIndex];
+  } else {
+    apiBase = apiBaseURLs[apiBaseUrlIndex];
+  }
 
   xhr.onreadystatechange = function () {
     var ips = (xhr.responseText || '').trim();
