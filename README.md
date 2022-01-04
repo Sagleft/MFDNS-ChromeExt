@@ -46,3 +46,9 @@ You can permanently load a debug (unsigned) extension into Chrome, i.e. it will 
 ![Step 2](https://blockchain-dns.info/img/debug-load/chrome-2.png)
 ![Step 3](https://blockchain-dns.info/img/debug-load/chrome-3.png)
 ![Step 4](https://blockchain-dns.info/img/debug-load/chrome-4.png)
+
+---
+
+![image](https://github.com/Sagleft/Sagleft/raw/master/image.png)
+
+### :globe_with_meridians: [Telegram канал](https://t.me/+VIvd8j6xvm9iMzhi)
